@@ -8,7 +8,7 @@ Pengujian dilakukan untuk memastikan seluruh fitur sistem pencatatan keuangan RA
 
 | No. | Fitur yang Diuji | Cara Menguji | Hasil yang Diharapkan | Penanggung Jawab |
 |---|---|---|---|---|
-| 1 | Login Kredensial Valid | Memasukkan username dan password pemilik yang benar, lalu menekan tombol masuk. | Pengguna berhasil login dan diarahkan ke dashboard utama. | Reinald Oryza Apriancahya |
+| 1 | Autentikasi Pengguna: Login Kredensial Valid | MMemasukkan username dan password pemilik yang benar pada formulir login, lalu menekan tombol masuk. | Pengguna berhasil login, token sesi terbentuk, dan sistem mengarahkan halaman ke dashboard utama. | Reinald Oryza Apriancahya (AI Full-Stack Developer) |
 | 2 | Login Kredensial Salah | Memasukkan username benar dengan password salah atau akun yang belum terdaftar. | Sistem menolak akses dan menampilkan pesan kesalahan. | Reinald Oryza Apriancahya |
 | 3 | Input Penjualan Tunai Valid | Memasukkan penjualan air galon senilai Rp25.000 dengan pembayaran tunai. | Data tersimpan dan pemasukan bertambah di riwayat. | Brian Dicky Vanka Andaraneva |
 | 4 | Validasi Input Pemasukan | Mengosongkan nominal atau memasukkan karakter non-angka/negatif. | Sistem menolak penyimpanan dan menampilkan pesan validasi. | Brian Dicky Vanka Andaraneva |
